@@ -73,3 +73,5 @@ STATIC METHODS INSIDE INTERFACE (From and after Java 1.8)
 6. Implementation class (the class which implements an interface) CANNOT access static method defined in the interface.
    It is invisible to the implementation class.
 7. Main method can also be written inside an interface.
+
+------------------------------------------------------------------------------------------------------------------------
