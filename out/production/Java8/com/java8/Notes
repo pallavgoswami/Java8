@@ -60,16 +60,3 @@ DEFAULT METHODS INSIDE INTERFACE
 2. Until 1.7 only public abstract methods were allowed whether we declare by writing or not.
 3. Similarly public static final variable were allowed.
 4. We can directly use the implementation if default methods without overriding them.
-
-------------------------------------------------------------------------------------------------------------------------
-
-STATIC METHODS INSIDE INTERFACE (From and after Java 1.8)
-
-1. Defined in the interface with keyword static.
-2. Contain complete definition of the function.
-3. Cannot be overridden or changed in the implementation class.
-4. Methods inside interface are by default public.
-5. In order to call static methods inside interface, there's only one way by using interface name.
-6. Implementation class (the class which implements an interface) CANNOT access static method defined in the interface.
-   It is invisible to the implementation class.
-7. Main method can also be written inside an interface.
